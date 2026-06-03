@@ -1,16 +1,9 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
-import { MMKV } from 'react-native-mmkv'
 import { calclerDroits } from '@/types/subscription'
 import type { Droits } from '@/types/subscription'
 import { CLES_MMKV } from '@/lib/constants'
-
-const mmkv = new MMKV({ id: 'subscription-store' })
-const stockageMMKV = {
-  getItem: (name: string) => mmkv.getString(name) ?? null,
-  setItem: (name: string, value: string) => mmkv.set(name, value),
-  removeItem: (name: string) => mmkv.delete(name),
-}
+import { creerStockage } from '@/lib/storage'
 
 interface EtatAbonnement {
   droits: Droits
@@ -23,22 +16,26 @@ interface ActionsAbonnement {
   setChargement: (c: boolean) => void
   reinitialiser: () => void
   peutAcceder: (fonctionnalite: keyof Droits) => boolean
+  activerPlanFamilleDemo: () => void
 }
 
+// Plan gratuit par défaut — suffisant pour le rituel du matin et les activités basiques
 const droitsDefaut = calclerDroits('free', 'active')
+// Plan famille pour la démo aidant
+const droitsFamilleDemo = calclerDroits('famille', 'active')
 
 export const useSubscriptionStore = create<EtatAbonnement & ActionsAbonnement>()(
   persist(
     (set, get) => ({
-      droits: droitsDefaut,
-      chargement: true,
+      droits: droitsFamilleDemo, // Démo en plan Famille pour tout voir
+      chargement: false,
       derniereSync: null,
 
       setDroits: (droits) => set({ droits, chargement: false, derniereSync: new Date().toISOString() }),
-
       setChargement: (c) => set({ chargement: c }),
-
       reinitialiser: () => set({ droits: droitsDefaut, chargement: false, derniereSync: null }),
+
+      activerPlanFamilleDemo: () => set({ droits: droitsFamilleDemo }),
 
       peutAcceder: (fonctionnalite) => {
         const { droits } = get()
@@ -51,7 +48,7 @@ export const useSubscriptionStore = create<EtatAbonnement & ActionsAbonnement>()
     }),
     {
       name: CLES_MMKV.ABONNEMENT,
-      storage: createJSONStorage(() => stockageMMKV),
+      storage: createJSONStorage(() => creerStockage('subscription-store')),
     }
   )
 )

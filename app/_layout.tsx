@@ -1,6 +1,16 @@
 import React, { useEffect } from 'react'
 import { Stack } from 'expo-router'
-import { useFonts } from 'expo-font'
+import {
+  useFonts,
+  Fraunces_400Regular,
+  Fraunces_600SemiBold,
+  Fraunces_700Bold,
+} from '@expo-google-fonts/fraunces'
+import {
+  Nunito_400Regular,
+  Nunito_600SemiBold,
+  Nunito_700Bold,
+} from '@expo-google-fonts/nunito'
 import * as SplashScreen from 'expo-splash-screen'
 import { StatusBar } from 'expo-status-bar'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
@@ -16,19 +26,19 @@ const queryClient = new QueryClient({
     queries: {
       staleTime: 1000 * 60 * 5,
       gcTime: 1000 * 60 * 30,
-      retry: 2,
+      retry: 1,
     },
   },
 })
 
 export default function RootLayout() {
   const [fontsLoaded, fontError] = useFonts({
-    'Fraunces-Regular': require('../assets/fonts/Fraunces-Regular.ttf'),
-    'Fraunces-SemiBold': require('../assets/fonts/Fraunces-SemiBold.ttf'),
-    'Fraunces-Bold': require('../assets/fonts/Fraunces-Bold.ttf'),
-    'Nunito-Regular': require('../assets/fonts/Nunito-Regular.ttf'),
-    'Nunito-SemiBold': require('../assets/fonts/Nunito-SemiBold.ttf'),
-    'Nunito-Bold': require('../assets/fonts/Nunito-Bold.ttf'),
+    'Fraunces-Regular': Fraunces_400Regular,
+    'Fraunces-SemiBold': Fraunces_600SemiBold,
+    'Fraunces-Bold': Fraunces_700Bold,
+    'Nunito-Regular': Nunito_400Regular,
+    'Nunito-SemiBold': Nunito_600SemiBold,
+    'Nunito-Bold': Nunito_700Bold,
   })
 
   useEffect(() => {

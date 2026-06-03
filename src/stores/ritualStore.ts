@@ -1,16 +1,9 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
-import { MMKV } from 'react-native-mmkv'
 import { dateAujourdhui } from '@/lib/utils'
 import type { EtatRituel, NiveauHumeur, EtapeRituel } from '@/types/ritual'
 import { CLES_MMKV } from '@/lib/constants'
-
-const mmkv = new MMKV({ id: 'rituel-store' })
-const stockageMMKV = {
-  getItem: (name: string) => mmkv.getString(name) ?? null,
-  setItem: (name: string, value: string) => mmkv.set(name, value),
-  removeItem: (name: string) => mmkv.delete(name),
-}
+import { creerStockage } from '@/lib/storage'
 
 interface EtatRituelStore {
   rituelDuJour: EtatRituel | null
@@ -28,6 +21,7 @@ interface ActionsRituel {
   reinitialiserSiNouveauJour: (profileId: string) => boolean
   setSynchroEnCours: (en: boolean) => void
   setErreur: (msg: string | null) => void
+  reinitialiserPourDemo: (profileId: string) => void
 }
 
 function creerRituelVide(profileId: string): EtatRituel {
@@ -99,12 +93,16 @@ export const useRitualStore = create<EtatRituelStore & ActionsRituel>()(
         return false
       },
 
+      reinitialiserPourDemo: (profileId) => {
+        set({ rituelDuJour: creerRituelVide(profileId), dateInitialise: dateAujourdhui() })
+      },
+
       setSynchroEnCours: (en) => set({ synchroEnCours: en }),
       setErreur: (msg) => set({ derniereErreur: msg }),
     }),
     {
       name: CLES_MMKV.RITUEL_AUJOURD_HUI,
-      storage: createJSONStorage(() => stockageMMKV),
+      storage: createJSONStorage(() => creerStockage('rituel-store')),
     }
   )
 )

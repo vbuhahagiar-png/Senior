@@ -10,10 +10,8 @@ import { Ecran } from '@/components/layout/Screen'
 import { couleurs, espacement, palette, arrondi } from '@/lib/theme'
 import { useAuth } from '@/hooks/useAuth'
 import { useRitual } from '@/hooks/useRitual'
-import { formaterDateLong, getCitationDuJour } from '@/lib/utils'
+import { formaterDateLong } from '@/lib/utils'
 import type { NiveauHumeur } from '@/types/ritual'
-
-// Citation du jour importée depuis utils
 import { getCitationDuJour as getCitation } from '@/types/ritual'
 
 export default function AccueilProfite() {
@@ -31,6 +29,7 @@ export default function AccueilProfite() {
 
   const dateAujourdhuiLong = formaterDateLong(new Date())
   const citation = getCitation()
+
   const prenom = profil?.display_name?.split(' ')[0] ?? 'vous'
 
   const etapesMeta = [

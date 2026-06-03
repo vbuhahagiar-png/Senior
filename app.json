@@ -8,7 +8,6 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
     "splash": {
-      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#F5F0E8"
     },
@@ -18,55 +17,30 @@
       "bundleIdentifier": "ch.seniorplus.app",
       "buildNumber": "1",
       "infoPlist": {
-        "NSCameraUsageDescription": "Senior + utilise votre caméra pour photographier vos courriers et les décoder.",
+        "NSCameraUsageDescription": "Senior + utilise votre caméra pour photographier vos courriers.",
         "NSMicrophoneUsageDescription": "Senior + utilise votre microphone pour le compagnon vocal.",
-        "NSPhotoLibraryUsageDescription": "Senior + accède à vos photos pour partager des souvenirs avec votre famille.",
-        "NSUserNotificationsUsageDescription": "Senior + envoie des rappels bienveillants pour votre rituel du matin et vos rendez-vous."
+        "NSPhotoLibraryUsageDescription": "Senior + accède à vos photos pour partager avec votre famille."
       }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#F5F0E8"
       },
       "package": "ch.seniorplus.app",
-      "versionCode": 1,
-      "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "RECORD_AUDIO",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE"
-      ]
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/images/favicon.png",
       "bundler": "metro",
       "output": "static",
       "name": "Senior +"
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/Fraunces-Regular.ttf",
-            "./assets/fonts/Fraunces-SemiBold.ttf",
-            "./assets/fonts/Fraunces-Bold.ttf",
-            "./assets/fonts/Nunito-Regular.ttf",
-            "./assets/fonts/Nunito-SemiBold.ttf",
-            "./assets/fonts/Nunito-Bold.ttf"
-          ]
-        }
-      ],
+      "expo-font",
       [
         "expo-notifications",
         {
-          "icon": "./assets/images/notification-icon.png",
-          "color": "#8A9E85",
-          "sounds": []
+          "color": "#8A9E85"
         }
       ],
       "expo-secure-store"
