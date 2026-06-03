@@ -1,0 +1,133 @@
+{
+  "bienvenue": {
+    "titre": "Bienvenue sur\nSenior +",
+    "sousTitre": "Votre compagnon de vie pour profiter de chaque jour",
+    "boutonCommencer": "Commencer",
+    "deja": "Déjà un compte ?",
+    "seConnecter": "Se connecter"
+  },
+  "choixProfil": {
+    "titre": "Comment souhaitez-vous utiliser Senior + ?",
+    "sousTitre": "Vous pourrez changer à tout moment dans les réglages.",
+    "profite": {
+      "titre": "Je profite",
+      "sousTitre": "Retraité·e actif·ve",
+      "description": "Découvrez des activités, gérez votre quotidien et restez connecté·e à vos proches.",
+      "avantages": [
+        "Activités adaptées près de chez vous",
+        "Rituel du matin bienveillant",
+        "Agenda et rappels intelligents"
+      ]
+    },
+    "accompagne": {
+      "titre": "J'accompagne",
+      "sousTitre": "Proche aidant·e",
+      "description": "Gardez un œil bienveillant sur votre proche et coordonnez les soins en famille.",
+      "avantages": [
+        "Tableau de bord rassurant au quotidien",
+        "Cercle d'aidants et partage des tâches",
+        "Alertes douces si quelque chose change"
+      ]
+    }
+  },
+  "profite": {
+    "etape1": {
+      "titre": "Votre prénom",
+      "sousTitre": "Comment souhaitez-vous qu'on vous appelle ?",
+      "placeholder": "Votre prénom",
+      "validation": "Votre prénom doit comporter au moins 2 caractères."
+    },
+    "etape2": {
+      "titre": "Votre date de naissance",
+      "sousTitre": "Pour vous proposer des activités adaptées.",
+      "placeholder": "JJ/MM/AAAA",
+      "validation": "Veuillez entrer une date valide.",
+      "note": "Cette information reste privée."
+    },
+    "etape3": {
+      "titre": "Où habitez-vous ?",
+      "sousTitre": "Pour trouver des activités près de chez vous.",
+      "placeholderVille": "Votre ville",
+      "placeholderCanton": "Canton",
+      "validation": "Veuillez indiquer votre ville."
+    },
+    "etape4": {
+      "titre": "Vos centres d'intérêt",
+      "sousTitre": "Sélectionnez tout ce qui vous fait envie. Vous pourrez modifier cela plus tard.",
+      "interets": {
+        "musique": "Musique",
+        "jardinage": "Jardinage",
+        "cuisine": "Cuisine",
+        "yoga": "Yoga",
+        "natation": "Natation",
+        "randonnee": "Randonnée",
+        "peinture": "Peinture & Arts",
+        "lecture": "Lecture",
+        "benevolat": "Bénévolat",
+        "voyages": "Voyages",
+        "danse": "Danse",
+        "informatique": "Informatique",
+        "photographie": "Photographie",
+        "bridge": "Jeux de cartes",
+        "cyclisme": "Cyclisme",
+        "gym": "Gym douce",
+        "theatre": "Théâtre",
+        "histoire": "Histoire & Patrimoine"
+      },
+      "validation": "Sélectionnez au moins un centre d'intérêt."
+    }
+  },
+  "accompagne": {
+    "etape1": {
+      "titre": "Votre prénom",
+      "sousTitre": "Comment souhaitez-vous qu'on vous appelle ?",
+      "placeholder": "Votre prénom",
+      "validation": "Votre prénom doit comporter au moins 2 caractères."
+    },
+    "etape2": {
+      "titre": "Votre proche",
+      "sousTitre": "Invitez la personne que vous accompagnez à rejoindre Senior +.",
+      "placeholderEmail": "Email de votre proche",
+      "placeholderRelation": "Votre lien (parent, ami·e…)",
+      "boutonInviter": "Envoyer l'invitation",
+      "ouConnexion": "ou",
+      "seniorDeja": "Mon proche est déjà sur Senior +",
+      "note": "Votre proche recevra un email pour accepter votre demande. Vous n'aurez accès à son profil que lorsqu'il ou elle aura accepté."
+    },
+    "etape3": {
+      "titre": "Tout est prêt !",
+      "sousTitre": "Vous pouvez commencer à utiliser Senior + dès maintenant.",
+      "attente": "En attente d'acceptation de {{nom}}",
+      "attenteSousTitre": "Vous serez notifié·e dès que votre proche accepte votre invitation."
+    }
+  },
+  "compte": {
+    "titreCréer": "Créer votre compte",
+    "titreSe": "Connexion",
+    "email": "Adresse email",
+    "motDePasse": "Mot de passe",
+    "motDePasseConfirm": "Confirmer le mot de passe",
+    "motDePasseNote": "Au moins 8 caractères.",
+    "boutonCreer": "Créer mon compte",
+    "boutonConnexion": "Se connecter",
+    "ouContinuerAvec": "ou continuer avec",
+    "dejauncompte": "Déjà un compte ? Se connecter",
+    "pasEncoreCompte": "Pas encore de compte ? S'inscrire",
+    "motDePasseOublie": "Mot de passe oublié ?",
+    "validations": {
+      "emailInvalide": "Veuillez entrer une adresse email valide.",
+      "motDePasseTropCourt": "Le mot de passe doit comporter au moins 8 caractères.",
+      "motDePasseNonIdentiques": "Les mots de passe ne correspondent pas.",
+      "emailDejaUtilise": "Cette adresse email est déjà utilisée.",
+      "identifiantsInvalides": "Email ou mot de passe incorrect."
+    }
+  },
+  "motDePasseOublie": {
+    "titre": "Mot de passe oublié",
+    "description": "Entrez votre adresse email et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "placeholder": "Votre adresse email",
+    "bouton": "Envoyer le lien",
+    "succes": "Un email a été envoyé à {{email}}. Vérifiez vos courriers, y compris les spams.",
+    "retour": "Retour à la connexion"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "titre": "Activités près de chez vous",
+  "recherche": {
+    "placeholder": "Rechercher une activité…",
+    "aucunResultat": "Aucune activité trouvée",
+    "aucunResultatSuggestion": "Essayez d'élargir votre recherche ou de modifier les filtres."
+  },
+  "filtres": {
+    "titre": "Filtrer",
+    "tous": "Tout",
+    "sport": "Sport doux",
+    "culture": "Culture",
+    "benevolat": "Bénévolat",
+    "sorties": "Sorties",
+    "formation": "Ateliers",
+    "social": "Rencontres",
+    "voyage": "Voyages",
+    "reinitialiser": "Réinitialiser les filtres",
+    "appliquer": "Voir les résultats",
+    "intensite": "Intensité physique",
+    "toutes": "Toutes",
+    "distance": "Distance",
+    "prix": "Prix",
+    "gratuit": "Gratuit uniquement",
+    "date": "Date"
+  },
+  "intensite": {
+    "douce": "Douce",
+    "douceDescription": "Marche, yoga doux, aquagym légère",
+    "moderee": "Modérée",
+    "modereeDescription": "Natation, vélo, gym",
+    "intense": "Intense",
+    "intenseDescription": "Course, sport collectif"
+  },
+  "carte": {
+    "gratuit": "Gratuit",
+    "prix": "{{prix}} CHF",
+    "distance": "{{distance}} km",
+    "participants": "{{count}} participant",
+    "participants_plural": "{{count}} participants",
+    "complet": "Complet",
+    "places": "{{count}} place restante",
+    "places_plural": "{{count}} places restantes",
+    "nouveau": "Nouveau",
+    "sauvegarder": "Sauvegarder",
+    "sauvegarde": "Sauvegardé ✓"
+  },
+  "detail": {
+    "inscription": "S'inscrire",
+    "ajouterAgenda": "Ajouter à mon agenda",
+    "partager": "Partager",
+    "qui": "Qui participe ?",
+    "aucunParticipant": "Soyez le premier à vous inscrire !",
+    "organisation": "Organisé par",
+    "contact": "Contact",
+    "lieu": "Lieu",
+    "horaires": "Horaires",
+    "recurrence": "Activité récurrente",
+    "sourceNote": "Informations vérifiées le {{date}} · Source : {{source}}",
+    "lienOriginal": "Voir sur le site officiel"
+  },
+  "agenda": {
+    "titre": "Mon agenda",
+    "ajoute": "Ajouté à votre agenda",
+    "retire": "Retiré de votre agenda",
+    "aucune": "Aucune activité dans votre agenda",
+    "aucuneSuggestion": "Explorez les activités disponibles près de chez vous."
+  },
+  "suggestion": {
+    "titre": "Idée pour aujourd'hui",
+    "baseSurInterets": "Basé sur vos intérêts",
+    "voirPlus": "Voir toutes les activités"
+  },
+  "agent": {
+    "derniereMaj": "Mis à jour le {{date}}",
+    "nombreActivites": "{{count}} activité disponible",
+    "nombreActivites_plural": "{{count}} activités disponibles",
+    "geneve": "Activités à Genève"
+  }
+}

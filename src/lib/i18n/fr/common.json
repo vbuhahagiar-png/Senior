@@ -1,0 +1,123 @@
+{
+  "app": {
+    "nom": "Senior +",
+    "slogan": "Votre compagnon de vie"
+  },
+  "boutons": {
+    "continuer": "Continuer",
+    "retour": "Retour",
+    "annuler": "Annuler",
+    "enregistrer": "Enregistrer",
+    "fermer": "Fermer",
+    "valider": "Valider",
+    "partager": "Partager",
+    "supprimer": "Supprimer",
+    "modifier": "Modifier",
+    "ajouter": "Ajouter",
+    "ouvrir": "Ouvrir",
+    "voir": "Voir",
+    "confirmer": "Confirmer",
+    "ignorer": "Ignorer",
+    "suivant": "Suivant",
+    "precedent": "Précédent",
+    "terminer": "Terminer",
+    "commencer": "Commencer",
+    "essayer": "Essayer gratuitement",
+    "abonner": "S'abonner",
+    "gerer": "Gérer mon abonnement",
+    "copier": "Copier",
+    "telecharger": "Télécharger"
+  },
+  "navigation": {
+    "accueil": "Accueil",
+    "activites": "Activités",
+    "famille": "Famille",
+    "reglages": "Réglages",
+    "tableauDeBord": "Tableau de bord",
+    "cercle": "Cercle",
+    "alertes": "Alertes",
+    "courriers": "Courriers",
+    "compagnon": "Compagnon"
+  },
+  "etats": {
+    "chargement": "Chargement…",
+    "erreur": "Une erreur s'est produite",
+    "vide": "Rien ici pour l'instant",
+    "succes": "C'est fait !",
+    "connexionRequise": "Connexion requise",
+    "horsLigne": "Vous êtes hors ligne",
+    "horsLigneMessage": "Certaines fonctions sont limitées sans connexion internet.",
+    "miseAJour": "Mise à jour…",
+    "sauvegarde": "Sauvegarde…"
+  },
+  "jours": {
+    "lundi": "Lundi",
+    "mardi": "Mardi",
+    "mercredi": "Mercredi",
+    "jeudi": "Jeudi",
+    "vendredi": "Vendredi",
+    "samedi": "Samedi",
+    "dimanche": "Dimanche",
+    "lundiCourt": "Lun",
+    "mardiCourt": "Mar",
+    "mercrediCourt": "Mer",
+    "jeudiCourt": "Jeu",
+    "vendrediCourt": "Ven",
+    "samediCourt": "Sam",
+    "dimancheCourt": "Dim",
+    "aujourdhui": "Aujourd'hui",
+    "hier": "Hier",
+    "demain": "Demain"
+  },
+  "mois": {
+    "janvier": "Janvier",
+    "fevrier": "Février",
+    "mars": "Mars",
+    "avril": "Avril",
+    "mai": "Mai",
+    "juin": "Juin",
+    "juillet": "Juillet",
+    "aout": "Août",
+    "septembre": "Septembre",
+    "octobre": "Octobre",
+    "novembre": "Novembre",
+    "decembre": "Décembre"
+  },
+  "accessibilite": {
+    "grandAffichage": "Grand affichage",
+    "modeVoix": "Mode voix",
+    "fortContraste": "Fort contraste",
+    "activerAccessibilite": "Activer l'accessibilité",
+    "description": "Activez les options d'accessibilité pour adapter l'application à vos besoins."
+  },
+  "erreurs": {
+    "reseauIndisponible": "La connexion réseau n'est pas disponible.",
+    "serveurInaccessible": "Le serveur est temporairement inaccessible. Veuillez réessayer.",
+    "sessionExpiree": "Votre session a expiré. Veuillez vous reconnecter.",
+    "droitsInsuffisants": "Vous n'avez pas les droits pour effectuer cette action.",
+    "champRequis": "Ce champ est obligatoire.",
+    "formatInvalide": "Le format saisi n'est pas valide.",
+    "reessayer": "Réessayer"
+  },
+  "date": {
+    "format": "dd/MM/yyyy",
+    "formatCourt": "dd/MM",
+    "formatLong": "EEEE d MMMM yyyy",
+    "formatHeure": "HH:mm",
+    "formatDateHeure": "dd/MM à HH:mm"
+  },
+  "monnaie": {
+    "code": "CHF",
+    "symbole": "CHF",
+    "parMois": "/mois",
+    "parAn": "/an",
+    "gratuit": "Gratuit"
+  },
+  "confidentialite": {
+    "titre": "Vos données vous appartiennent",
+    "description": "Senior + stocke vos données en Suisse. Aucune publicité, aucune revente de données.",
+    "lienPolitique": "Politique de confidentialité",
+    "lienCGU": "Conditions d'utilisation",
+    "consentement": "En continuant, vous acceptez nos conditions d'utilisation et notre politique de confidentialité."
+  }
+}

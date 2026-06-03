@@ -1,0 +1,48 @@
+{
+  "titre": "Compagnon vocal",
+  "accueil": {
+    "titre": "Votre compagnon bienveillant",
+    "description": "Parlez librement. Je suis là pour vous écouter, vous informer et vous accompagner au quotidien.",
+    "boutonCommencer": "Commencer à parler",
+    "boutonHistorique": "Voir les conversations passées",
+    "disponibilite": "Disponible 24h/24"
+  },
+  "session": {
+    "ecoute": "Je vous écoute…",
+    "traitement": "Je réfléchis…",
+    "repond": "Je vous réponds…",
+    "terminer": "Terminer la conversation",
+    "muet": "Couper le micro",
+    "remettreMicro": "Remettre le micro"
+  },
+  "securite": {
+    "titre": "Un compagnon, pas un médecin",
+    "texte": "Je suis là pour vous tenir compagnie et vous informer, mais je ne remplace pas votre médecin ni vos proches. En cas de vrai besoin, appelez le 144 ou un proche.",
+    "compris": "J'ai compris"
+  },
+  "detresse": {
+    "detection": "Je sens que vous traversez un moment difficile.",
+    "question": "Souhaitez-vous que je prévienne un de vos proches ?",
+    "oui": "Oui, prévenez {{prenom}}",
+    "non": "Non, merci",
+    "alerte": "{{proche}} a été informé·e que vous avez besoin de soutien."
+  },
+  "historique": {
+    "titre": "Conversations passées",
+    "vide": "Aucune conversation pour l'instant.",
+    "resume": "Résumé de la conversation",
+    "duree": "{{duree}} min",
+    "tours": "{{count}} échange",
+    "tours_plural": "{{count}} échanges"
+  },
+  "premium": {
+    "titre": "Compagnon vocal",
+    "description": "Parlez librement avec votre compagnon bienveillant. Disponible avec Senior + Famille.",
+    "cta": "Essayer gratuitement"
+  },
+  "erreurs": {
+    "microphoneRefuse": "L'accès au microphone est nécessaire pour utiliser le compagnon vocal. Vérifiez vos réglages.",
+    "connexionRequise": "Une connexion internet est nécessaire pour le compagnon vocal.",
+    "sessionExpiredee": "La session a expiré. Démarrez une nouvelle conversation."
+  }
+}

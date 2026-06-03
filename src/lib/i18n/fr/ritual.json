@@ -1,0 +1,94 @@
+{
+  "bonjour": {
+    "titre": "Bonjour {{prenom}} !",
+    "titreGeneral": "Bonjour !",
+    "date": "{{jour}}, {{date}}",
+    "soustitre": "Comment commencez-vous cette journée ?"
+  },
+  "etapes": {
+    "meteo": {
+      "titre": "La météo du jour",
+      "chargement": "Météo en cours…",
+      "erreur": "Météo indisponible",
+      "description": "{{temperature}}°C à {{ville}}"
+    },
+    "citation": {
+      "titre": "Pensée du jour"
+    },
+    "humeur": {
+      "titre": "Comment vous sentez-vous ?",
+      "sousTitre": "Un seul tap suffit.",
+      "niveaux": {
+        "5": "Excellent",
+        "4": "Bien",
+        "3": "Moyen",
+        "2": "Pas terrible",
+        "1": "Difficile"
+      },
+      "emojis": {
+        "5": "😄",
+        "4": "🙂",
+        "3": "😐",
+        "2": "😕",
+        "1": "😔"
+      },
+      "enregistre": "Humeur enregistrée"
+    },
+    "mouvement": {
+      "titre": "Un peu de mouvement ?",
+      "sousTitre": "Même 5 minutes, ça fait du bien.",
+      "options": [
+        "Marche de 10 min",
+        "Étirements",
+        "Yoga doux",
+        "Vélo ou piscine",
+        "Déjà fait ce matin"
+      ],
+      "nonAujourdhui": "Pas aujourd'hui"
+    },
+    "medicaments": {
+      "titre": "Vos médicaments",
+      "sousTitre": "Avez-vous pris vos médicaments du matin ?",
+      "oui": "Oui, c'est fait ✓",
+      "non": "Pas encore",
+      "aucun": "Je n'en prends pas",
+      "premiumSeul": "Suivi de plusieurs médicaments disponible avec Senior + Famille",
+      "ajouter": "Ajouter un médicament"
+    }
+  },
+  "terminer": {
+    "titre": "C'est noté !",
+    "message": "Votre famille est rassurée. Profitez bien de cette journée.",
+    "bouton": "Voir les activités du jour",
+    "boutonAccueil": "Retour à l'accueil",
+    "serie": "{{jours}} jours d'affilée ! 🎉"
+  },
+  "passer": {
+    "texte": "Passer pour aujourd'hui",
+    "confirmation": "Passer le rituel du matin ?",
+    "details": "Votre famille sera quand même notifiée que vous allez bien.",
+    "confirmer": "Oui, passer",
+    "annuler": "Revenir au rituel"
+  },
+  "rappels": {
+    "titre": "Rappel matinal",
+    "heure": "Heure du rappel",
+    "description": "Senior + vous enverra un rappel bienveillant à l'heure choisie si vous n'avez pas encore fait votre rituel.",
+    "activeDescription": "Rappel actif à {{heure}}",
+    "desactiver": "Désactiver",
+    "activer": "Activer les rappels"
+  },
+  "historique": {
+    "titre": "Votre semaine",
+    "complet": "Rituel complété",
+    "incomplet": "Non complété",
+    "absent": "Pas de données",
+    "derniereHumeur": "Dernière humeur : {{humeur}}"
+  },
+  "statut": {
+    "complet": "Rituel du matin ✓",
+    "incomplete": "Rituel en cours",
+    "nonFait": "Rituel non fait",
+    "passe": "Rituel passé"
+  }
+}

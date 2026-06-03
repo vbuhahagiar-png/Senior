@@ -1,0 +1,99 @@
+{
+  "plans": {
+    "gratuit": {
+      "nom": "Gratuit",
+      "prix": "0",
+      "description": "Les essentiels pour commencer",
+      "fonctionnalites": [
+        "Rituel du matin simple",
+        "1 médicament",
+        "1 proche",
+        "Agenda de base",
+        "5 activités par jour"
+      ]
+    },
+    "famille": {
+      "nom": "Famille",
+      "prixMensuel": "24.90",
+      "prixAnnuel": "249",
+      "prixAnnuelMensuel": "20.75",
+      "description": "Pour un quotidien serein en famille",
+      "fonctionnalites": [
+        "Rituel du matin complet",
+        "Suivi de tous les médicaments",
+        "Famille entière",
+        "Activités illimitées",
+        "Décodage de courriers IA",
+        "Cercle d'aidants complet",
+        "Résumé hebdo pour la famille",
+        "Support prioritaire"
+      ],
+      "populaire": true
+    },
+    "serenite": {
+      "nom": "Sérénité",
+      "prixMensuel": "39.90",
+      "prixAnnuel": "399",
+      "prixAnnuelMensuel": "33.25",
+      "description": "La tranquillité d'esprit complète",
+      "fonctionnalites": [
+        "Tout le plan Famille",
+        "Bilan retraite guidé AVS/LPP",
+        "Coffre-fort documents",
+        "Conseiller prioritaire",
+        "Livre de mémoires"
+      ]
+    }
+  },
+  "essai": {
+    "badge": "1er mois offert",
+    "titre": "Essayez Senior + Famille gratuitement",
+    "description": "Votre premier mois est entièrement gratuit. Annulez à tout moment avant la fin de l'essai.",
+    "sansCarte": "Aucune carte bancaire requise pendant l'essai.",
+    "joursRestants": "{{jours}} jour restant d'essai",
+    "joursRestants_plural": "{{jours}} jours restants d'essai",
+    "expireBientot": "Votre essai se termine dans {{jours}} jour",
+    "expireBientot_plural": "Votre essai se termine dans {{jours}} jours"
+  },
+  "cadenas": {
+    "badge": "Premium",
+    "titre": "Fonctionnalité Premium",
+    "description": "Disponible avec l'abonnement {{plan}}",
+    "ctaBouton": "Voir les offres",
+    "ctaBoutonEssai": "Essayer gratuitement"
+  },
+  "facturation": {
+    "mensuel": "Mensuel",
+    "annuel": "Annuel",
+    "economie": "Économisez {{economie}} CHF/an",
+    "economiePourcentage": "-{{pct}}%",
+    "premierMoisOffert": "1er mois offert",
+    "engagement": "Sans engagement",
+    "resilier": "Résilier à tout moment"
+  },
+  "gestion": {
+    "titre": "Mon abonnement",
+    "planActuel": "Plan actuel : {{plan}}",
+    "renouvelLe": "Renouvellement le {{date}}",
+    "annuleLe": "Annulé — actif jusqu'au {{date}}",
+    "gererAbonnement": "Gérer via le portail",
+    "changerPlan": "Changer de plan",
+    "historique": "Historique de facturation",
+    "portailNote": "La gestion de l'abonnement se fait sur notre site web sécurisé."
+  },
+  "checkout": {
+    "titre": "Finaliser votre abonnement",
+    "securise": "Paiement 100% sécurisé par Stripe",
+    "donneesSuisse": "Données hébergées en Suisse",
+    "succes": {
+      "titre": "Bienvenue dans Senior + {{plan}} !",
+      "message": "Votre abonnement est actif. Profitez de toutes les fonctionnalités.",
+      "bouton": "Retour à l'app"
+    },
+    "annule": {
+      "titre": "Abonnement non activé",
+      "message": "Vous pouvez reprendre votre abonnement à tout moment.",
+      "bouton": "Retour"
+    }
+  }
+}

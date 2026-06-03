@@ -1,0 +1,61 @@
+{
+  "fil": {
+    "titre": "Fil familial",
+    "message": "Écrire un message…",
+    "ajouterPhoto": "Ajouter une photo",
+    "envoyer": "Envoyer",
+    "aucunMessage": "Pas encore de messages.",
+    "aucunMessageDescription": "Partagez un moment, une photo ou un pensez-vous avec votre famille.",
+    "photoPartagee": "{{prenom}} a partagé une photo",
+    "messageEnvoye": "Message envoyé",
+    "ilYA": "il y a {{temps}}"
+  },
+  "cercle": {
+    "titre": "Cercle familial",
+    "membres": "{{count}} membre",
+    "membres_plural": "{{count}} membres",
+    "inviter": "Inviter un proche",
+    "gerer": "Gérer l'accès",
+    "statuts": {
+      "actif": "Actif",
+      "attente": "En attente",
+      "refuse": "Refusé"
+    }
+  },
+  "invitation": {
+    "titre": "Inviter un proche",
+    "description": "Entrez l'adresse email de la personne que vous souhaitez inviter dans votre cercle.",
+    "email": "Adresse email",
+    "relation": "Votre lien avec cette personne",
+    "relations": {
+      "fils": "Fils",
+      "fille": "Fille",
+      "conjoint": "Conjoint·e",
+      "ami": "Ami·e",
+      "voisin": "Voisin·e",
+      "aide": "Aide à domicile",
+      "autre": "Autre"
+    },
+    "envoyer": "Envoyer l'invitation",
+    "succes": "Invitation envoyée à {{email}}",
+    "dejaInvite": "Cette personne a déjà été invitée.",
+    "emailNote": "Elle recevra un email avec un lien pour rejoindre Senior + et accéder à votre profil."
+  },
+  "droits": {
+    "titre": "Droits d'accès",
+    "description": "Choisissez ce que {{prenom}} peut voir de votre profil.",
+    "voirRituel": "Voir le rituel du matin",
+    "voirHumeur": "Voir mon humeur",
+    "voirMedicaments": "Voir mes médicaments",
+    "voirCourriers": "Voir mes courriers décodés",
+    "recevoirAlertes": "Recevoir les alertes",
+    "enregistrer": "Enregistrer les droits"
+  },
+  "lienSenior": {
+    "titre": "Rejoindre le profil de {{prenom}}",
+    "description": "{{prenom}} vous invite à rejoindre son cercle familial sur Senior +.",
+    "accepter": "Accepter l'invitation",
+    "refuser": "Refuser",
+    "dejaConnecte": "Vous êtes déjà connecté·e à ce profil."
+  }
+}

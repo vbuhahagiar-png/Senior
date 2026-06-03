@@ -1,0 +1,49 @@
+{
+  "rituelRappel": {
+    "titre": "Bonjour {{prenom}} ! 🌿",
+    "corps": "Votre rituel du matin vous attend. Ça ne prend que quelques minutes."
+  },
+  "rituelRappelDoux": {
+    "titre": "{{prenom}}, un petit coucou 👋",
+    "corps": "N'oubliez pas votre check-in du matin. Votre famille pense à vous."
+  },
+  "rituelManquant": {
+    "titre": "Nouvelles de {{prenom}}",
+    "corpsAidant": "{{prenom}} n'a pas encore fait son check-in du matin. Tout va bien ?"
+  },
+  "courrierDecode": {
+    "titre": "Courrier décodé ✉️",
+    "corps": "Votre courrier de {{expediteur}} a été expliqué en clair. Tapez pour le lire."
+  },
+  "alerteAidant": {
+    "titre": "Nouvelles de {{prenom}} 💛",
+    "corps": "{{prenom}} n'a pas encore confirmé son rituel du matin. Un petit appel ?"
+  },
+  "rappelMedicaments": {
+    "titre": "Rappel médicaments 💊",
+    "corps": "Avez-vous pris vos médicaments du matin ?"
+  },
+  "rappelRendezVous": {
+    "titreDemain": "Rappel : rendez-vous demain",
+    "corpsDemain": "Vous avez un rendez-vous demain à {{heure}} : {{titre}}.",
+    "titreJour": "Rappel : rendez-vous aujourd'hui",
+    "corpsJour": "Votre rendez-vous «{{titre}}» est dans {{heures}} heure.",
+    "corpsJour_plural": "Votre rendez-vous «{{titre}}» est dans {{heures}} heures."
+  },
+  "suggestionActivite": {
+    "titre": "Idée pour aujourd'hui 🌟",
+    "corps": "«{{titre}}» vous attendrait bien — {{heure}} à {{lieu}}."
+  },
+  "resumeHebdo": {
+    "titre": "La semaine de {{prenom}} 📅",
+    "corps": "{{rituelsFaits}} rituels sur 7 — {{humeurMoyenne}} de moyenne. Beau bilan !"
+  },
+  "invitationFamille": {
+    "titre": "{{prenom}} vous invite sur Senior +",
+    "corps": "Rejoignez le cercle familial de {{prenom}} pour rester connecté·e."
+  },
+  "tacheAssignee": {
+    "titre": "Nouvelle tâche pour vous",
+    "corps": "{{assigne}} vous a assigné : «{{tache}}» pour le {{date}}."
+  }
+}

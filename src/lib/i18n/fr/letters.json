@@ -1,0 +1,55 @@
+{
+  "titre": "Courriers",
+  "upload": {
+    "titre": "Décoder un courrier",
+    "description": "Prenez en photo un courrier administratif ou médical et Senior + vous l'explique en clair.",
+    "boutonCamera": "Prendre une photo",
+    "boutonGalerie": "Choisir dans la galerie",
+    "boutonFichier": "Importer un fichier PDF",
+    "conseil": "Pour un meilleur résultat, prenez la photo de face, avec une bonne lumière.",
+    "tailleMax": "Taille maximale : 10 Mo",
+    "confidentiel": "Vos courriers restent strictement privés et chiffrés."
+  },
+  "traitement": {
+    "attente": "En attente de traitement…",
+    "traitement": "Décodage en cours…",
+    "termineIl": "Décodé il y a {{temps}}",
+    "erreur": "Le décodage a échoué. Veuillez réessayer.",
+    "reessayer": "Réessayer"
+  },
+  "categories": {
+    "medical": "Médical",
+    "administratif": "Administratif",
+    "bancaire": "Bancaire",
+    "assurance": "Assurance",
+    "impots": "Impôts",
+    "autre": "Autre"
+  },
+  "detail": {
+    "original": "Courrier original",
+    "decode": "Explication en clair",
+    "expediteur": "Expéditeur supposé",
+    "actions": "Ce que vous pouvez faire",
+    "marquerLu": "Marquer comme lu",
+    "archiver": "Archiver",
+    "supprimer": "Supprimer",
+    "partager": "Partager avec la famille",
+    "dateUpload": "Reçu le {{date}}"
+  },
+  "liste": {
+    "vide": "Aucun courrier pour l'instant",
+    "videDescription": "Photographiez un courrier administratif ou médical pour le décoder.",
+    "nouveaux": "{{count}} nouveau courrier",
+    "nouveaux_plural": "{{count}} nouveaux courriers",
+    "archive": "Archivés"
+  },
+  "premium": {
+    "titre": "Décodage de courriers",
+    "description": "Disponible avec Senior + Famille. Photographiez n'importe quel courrier et obtenez une explication simple en quelques secondes.",
+    "cta": "Découvrir le plan Famille"
+  },
+  "avertissement": {
+    "titre": "À noter",
+    "texte": "L'explication fournie est une aide à la compréhension. Pour toute décision importante, consultez un professionnel (médecin, conseiller, service social)."
+  }
+}
