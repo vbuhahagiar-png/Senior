@@ -23,7 +23,7 @@ export default function CercleAidantsScreen() {
   })
 
   const taches = [
-    { id: '1', titre: 'Appel du matin', assigne: 'Pierre', fait: true, echeance: 'Aujourd'hui' },
+    { id: '1', titre: 'Appel du matin', assigne: 'Pierre', fait: true, echeance: "Aujourd'hui" },
     { id: '2', titre: 'Accompagner au médecin', assigne: 'Sophie', fait: false, echeance: 'Jeudi 14h' },
     { id: '3', titre: 'Courses alimentaires', assigne: 'Pierre', fait: false, echeance: 'Vendredi' },
   ]
