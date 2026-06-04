@@ -61,6 +61,8 @@ export const ROUTES = {
     COURRIERS: '/(profite)/letters/',
     CERCLE: '/(profite)/circle/',
     REGLAGES: '/(profite)/settings/',
+    ABONNEMENT: '/(profite)/subscription/',
+    CONTACT: '/(profite)/contact/',
   },
   ACCOMPAGNE: {
     TABLEAU: '/(accompagne)/dashboard/',
@@ -69,6 +71,8 @@ export const ROUTES = {
     COURRIERS: '/(accompagne)/letters/',
     ALERTES: '/(accompagne)/alerts/',
     REGLAGES: '/(accompagne)/settings/',
+    ABONNEMENT: '/(accompagne)/subscription/',
+    CONTACT: '/(accompagne)/contact/',
   },
   WEB: {
     CHECKOUT: '/(web)/checkout/',
