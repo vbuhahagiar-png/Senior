@@ -78,6 +78,8 @@ export default function AccompagneLayout() {
       />
       <Tabs.Screen name="activities" options={{ href: null }} />
       <Tabs.Screen name="letters" options={{ href: null }} />
+      <Tabs.Screen name="subscription" options={{ href: null }} />
+      <Tabs.Screen name="contact" options={{ href: null }} />
     </Tabs>
   )
 }
