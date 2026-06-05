@@ -73,7 +73,7 @@ const PLANS: PlanInfo[] = [
       'Suivi médicaments illimité',
       'Alertes et notifications en temps réel',
       'Fil famille partagé',
-      'Cercle jusqu'à 3 proches',
+      "Cercle jusqu'à 3 proches",
       'Résumé hebdomadaire aidant',
     ],
     recommande: true,
